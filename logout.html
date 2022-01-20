@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Aplikasi Pelaporan Pengaduan Masyarakat </title>
+        <link rel="stylesheet" href="boostrap/boosstrap.min.css">
+    </head>
+            <body>
+
+                <div class="container">
+                    <!-- JUDUL APP -->
+                    <div class="row">
+                        <div class="col-md-12">
+                        <div class="jumbotron">
+                            <h1 class="text-center">
+                                Aplikasi Pelaporan Pengaduan Masyarakat  
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                     <nav class="nav">
+                         <a href="pengaduan.html" class="nav-link">pengaduan</a>
+                         <a href="login.html" class="nav-link">keluar</a>
+                     </nav>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                KIRIM PENGADUAN
+                            </div>
+                            <div class="card body">
+                                <form action=""method="post">
+                                    <div class="form-group">
+                                    <input type="text" class="form control" placeholder="Judul Laporan" required autofocus>
+                                </div>
+                                <div class=" form-group">
+                                    <textarea name="text" class="form control" placeholder="Tulis Isi Laporan Disini..." required> </textarea>
+                                </div>
+                                <div class=" form-group">
+                                    <input type="file" accept="image/*" class="form control" required>
+                                </div>
+                                <button type="submit" class="btn btn-primary"> kirim</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
